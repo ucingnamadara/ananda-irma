@@ -1,10 +1,10 @@
 
-import { useEffect } from 'react';
+import { useEffect, useLayoutEffect } from 'react';
 import './App.css'
 import Home from './pages/home'
 
 function App() {
-  useEffect(() => {
+  useLayoutEffect(() => {
     // 1. Define the observer logic
     const observerOptions = { threshold: 0.2 };
 
