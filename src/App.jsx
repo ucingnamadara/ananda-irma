@@ -13,23 +13,23 @@ function App() {
         if (entry.isIntersecting) {
           const el = entry.target;
           
-          setTimeout(() => {
-            el.classList.remove('opacity-0');
-            
-            // Determine direction (you can add your scroll listener logic here too)
-            console.log(el);
-            if(el.classList.contains('left-animate')){
-              el.classList.add('animate-fade-slide-left');
-            }
-            else if(el.classList.contains('right-animate')){
-              el.classList.add('animate-fade-slide-right');
-            }
-            else{
-              el.classList.add('animate-fade-slide-up');
-            }
-            
-            observer.unobserve(el);
-          }, 150)
+          
+          el.classList.remove('opacity-0');
+          
+          // Determine direction (you can add your scroll listener logic here too)
+          console.log(el);
+          if(el.classList.contains('left-animate')){
+            el.classList.add('animate-fade-slide-left');
+          }
+          else if(el.classList.contains('right-animate')){
+            el.classList.add('animate-fade-slide-right');
+          }
+          else{
+            el.classList.add('animate-fade-slide-up');
+          }
+          
+          observer.unobserve(el);
+          
         }
       });
     }, observerOptions);
