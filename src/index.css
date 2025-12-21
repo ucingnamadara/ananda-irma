@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors (Bordeaux & Reds) */
+  --color-brand-dark: #5a0e24;
+  --color-brand-maroon: #76153c;
+  --color-brand-crimson: #bf124d;
+
+  /* Forest Colors (Greens) */
+  --color-forest-light: #a4be7b;
+  --color-forest-muted: #5f8d4e;
+  --color-forest-dark: #285430;
+
+  /* Surface Colors (Beige/Cream) */
+  --color-surface-cream: #e5d9b6;
+
+  /* Spectral Font (Integrating your previous request) */
+  --font-spectral: "Spectral", serif;
+  --font-inter: "Inter", sans-serif;
+  --font-playfair: "Playfair", serif;
+  
+  /* Define Keyframes */
+  @keyframes fade-slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-slide-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Map to Animation Utilities */
+  --animate-fade-slide-up: fade-slide-up 0.8s ease-out forwards;
+  --animate-fade-slide-down: fade-slide-down 0.8s ease-out forwards;
+}
+
+:root {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #e2ce92;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
