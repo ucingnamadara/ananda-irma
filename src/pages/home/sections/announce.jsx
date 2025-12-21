@@ -9,7 +9,7 @@ function Announce(){
             </div>
             <p data-animate className="font-medium opacity-0 transition-all duration-800">We’re overjoyed to invite you to our wedding!</p>
             <p data-animate className="font-semibold opacity-0 transition-all duration-800">As we’re planning an intimate celebration, surrounded only by those dearest to us.</p>
-            <p data-animate className="font-bold opacity-0 transition-all duration-800">This invitation is extended to two guests only, and we kindly ask that no additional guests be brought.</p>
+            <p data-animate className="font-bold opacity-0 transition-all duration-800">This invitation is for two guests only. We kindly request that no additional guests be brought.</p>
             <p data-animate className="font-medium opacity-0 transition-all duration-800">Thank you for understanding, and for being such a special part of our story.</p>
             <p data-animate className="font-medium opacity-0 transition-all duration-800">We can’t wait to celebrate this beautiful moment with you!</p>
         </div>

@@ -12,9 +12,11 @@ import Footers from "./sections/footer";
 
 function Home(){
     const [isOpen, setIsOpen] = useState(false);
+    const [isPlaying, setIsPlaying] = useState(false);
     return(
-        <div className="w-full h-full flex items-center justify-center">
-            <Cover isOpen={isOpen} setIsOpen={setIsOpen}></Cover>
+        <div className="w-full h-full flex items-center justify-center">      
+            <ReactHowler src="/assets/songs/background-music.mp3" loop={true} playing={isPlaying} html5={true}></ReactHowler>
+            <Cover isOpen={isOpen} setIsOpen={setIsOpen} isPlaying={isPlaying} setIsPlaying={setIsPlaying}></Cover>
             <main className={`bg-surface-cream w-full h-full ${isOpen ? 'block' : 'hidden'}`}>
                 <Welcome></Welcome>
                 <Announce></Announce>

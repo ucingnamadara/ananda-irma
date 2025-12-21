@@ -2,9 +2,7 @@ import ReactHowler from "react-howler";
 import Button from "../../../components/button";
 import { useState } from "react";
 
-function Cover({isOpen, setIsOpen}){
-    // 1. Create a state to track if the song is playing
-    const [isPlaying, setIsPlaying] = useState(false);
+function Cover({isOpen, setIsOpen, isPlaying, setIsPlaying}){
 
     // 2. Function to toggle the state
     const handleToggle = () => {
@@ -18,7 +16,6 @@ function Cover({isOpen, setIsOpen}){
         transition-transform duration-[1500ms] ease-in-out ${
           isOpen ? '-translate-y-full' : 'translate-y-0'
         }`} >
-        <ReactHowler src="/assets/songs/background-music.mp3" loop={true} playing={isPlaying}></ReactHowler>
         <div>
             <img src="/assets/images/wedding-logo-cream.svg" alt="Irma & Ananda" className=" w-70 mx-auto mb-4"/>
             <p className= "text-[20px] font-medium">Dear.</p>
