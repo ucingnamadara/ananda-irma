@@ -45,9 +45,32 @@
     }
   }
 
+  @keyframes fade-slide-right {
+    0% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes fade-slide-left {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
   /* Map to Animation Utilities */
   --animate-fade-slide-up: fade-slide-up 0.8s ease-out forwards;
   --animate-fade-slide-down: fade-slide-down 0.8s ease-out forwards;
+  --animate-fade-slide-right: fade-slide-right 0.8s ease-out forwards;
+  --animate-fade-slide-left: fade-slide-left 0.8s ease-out forwards;
 }
 
 :root {

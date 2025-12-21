@@ -4,24 +4,25 @@ function DateInformation() {
     const [days, hours, minutes, seconds] = useCountdown("2026-02-07T08:00:00+07:00")
     return (
         <div className="bg-surface-cream w-full h-fit flex flex-col justify-center items-center pt-20 px-4 -z-1 text-brand-dark">
-            <h1 className="text-[24px] font-semibold">Save the Date!</h1>
-            <div className="flex flex-row gap-5 my-6">
+            <h1 data-animate className="text-[24px] font-semibold opacity-0 transition-all duration-800">Save the Date!</h1>
+            <div data-animate className="flex flex-row gap-5 my-6 opacity-0 transition-all duration-800">
                 <CountDownPart value={days} label={"Days"} />
                 <CountDownPart value={hours} label={"Hours"} />
                 <CountDownPart value={minutes} label={"Minutes"} />
                 <CountDownPart value={seconds} label={"Seconds"} />
             </div>
-            <div className="flex flex-col gap-1 text-[24px] font-semibold">
+            <div data-animate className="flex flex-col gap-1 text-[24px] font-semibold opacity-0 transition-all duration-800">
                 <p className="">Saturday</p>
                 <p className="">February 7<span className="align-top text-[14px]">th</span>, 2026</p>
             </div>
             <div className="flex flex-col gap-5 my-6 color-forest-dark">
-                <div>
-                    <p className="text-[20px]">Akad</p>
+                <div data-animate className="opacity-0 transition-all duration-800">
+                    <p className="text-[20px]"><span className="font-semibold">Religious Ceremony </span>(Akad)</p>
+                    <p className="text-[14px]">(Family & Closest Friend Only)</p>
                     <p className="text-[24px]">08.00 - 10.00</p>
                 </div>
-                <div>
-                    <p className="text-[20px]">Reception</p>
+                <div data-animate className="opacity-0 transition-all duration-800">
+                    <p className="text-[20px]"><span className="font-semibold">Wedding Celebration </span>(Resepsi)</p>
                     <p className="text-[24px]">10.30 - 13.30</p>
                 </div>
             </div>

@@ -6,7 +6,7 @@ import Home from './pages/home'
 function App() {
   useEffect(() => {
     // 1. Define the observer logic
-    const observerOptions = { threshold: 0.8 };
+    const observerOptions = { threshold: 0.2 };
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -17,8 +17,16 @@ function App() {
             el.classList.remove('opacity-0');
             
             // Determine direction (you can add your scroll listener logic here too)
-            
-            el.classList.add('animate-fade-slide-up');
+            console.log(el);
+            if(el.classList.contains('left-animate')){
+              el.classList.add('animate-fade-slide-left');
+            }
+            else if(el.classList.contains('right-animate')){
+              el.classList.add('animate-fade-slide-right');
+            }
+            else{
+              el.classList.add('animate-fade-slide-up');
+            }
             
             observer.unobserve(el);
           }, 150)

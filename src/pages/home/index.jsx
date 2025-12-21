@@ -8,6 +8,7 @@ import Details from "./sections/details";
 import DateInformation from "./sections/date-information";
 import PlaceInformation from "./sections/place-information";
 import WeddingGift from "./sections/wedding-gift";
+import Footers from "./sections/footer";
 
 function Home(){
     const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,7 @@ function Home(){
                 <DateInformation></DateInformation>
                 <PlaceInformation></PlaceInformation>
                 <WeddingGift></WeddingGift>
+                <Footers></Footers>
             </main>
         </div>
     )
