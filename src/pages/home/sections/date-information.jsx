@@ -5,7 +5,7 @@ function DateInformation() {
     return (
         <div className="bg-surface-cream w-full h-fit flex flex-col justify-center items-center pt-20 px-4 -z-1 text-brand-dark">
             <h1 className="text-[24px] font-semibold">Save the Date!</h1>
-            <div className="flex flex-row gap-10 my-6">
+            <div className="flex flex-row gap-5 my-6">
                 <CountDownPart value={days} label={"Days"} />
                 <CountDownPart value={hours} label={"Hours"} />
                 <CountDownPart value={minutes} label={"Minutes"} />
@@ -33,7 +33,7 @@ function DateInformation() {
 function CountDownPart({ value, label }) {
     return (
         <div className="flex flex-col justify-center items-center mx-2">
-            <div className="text-[36px] font-semibold">{value}</div>
+            <div className="text-[30px] font-semibold">{value}</div>
             <div className="text-[15px] font-medium">{label}</div>
         </div>
     )
