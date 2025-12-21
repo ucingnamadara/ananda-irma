@@ -2,7 +2,7 @@ function Details(){
     return (
         <div className="bg-surface-cream w-full h-fit max-h-237.5 flex flex-col justify-center items-center py-20 px-4 -z-1 text-brand-dark text-[15px]">
             <img data-animate src="/assets/decorations/frame-decoration-1.svg" alt="Line Decoration" className="absolute max-h-237.5  md:object-none z-0 opacity-0 transition-all duration-800"/>
-            <div className="z-1">
+            <div className="z-1 px-5 md:px-0">
                 <div className="flex flex-row p-5 gap-2">
                     <div data-animate className="text-right flex flex-col justify-center items-end mr-5 w-1/2 gap-2 left-animate opacity-0 transition-all duration-800">
                         <p className="font-playfair text-[45px] font-bold tracking-tight line-clamp-3 leading-10">Ananda <span className="font-normal">Dana Pratama</span></p>
