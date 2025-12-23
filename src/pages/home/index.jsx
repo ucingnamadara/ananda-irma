@@ -10,17 +10,17 @@ import PlaceInformation from "./sections/place-information";
 import WeddingGift from "./sections/wedding-gift";
 import Footers from "./sections/footer";
 import { useInvitationInfo } from "../../hooks/useInvitationInfo";
-import { useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import PlayButton from "../../components/playButton";
 import Loading from "../../components/loading";
 
 function Home(){
-    const params = useParams();
+    const location = useLocation();
+    const queryParams = new URLSearchParams(location.search);
     const [isOpen, setIsOpen] = useState(false);
     const [isPlaying, setIsPlaying] = useState(false);
 
-    const { data, loading, error } = useInvitationInfo(params.code);
-    
+    const { data, loading, error } = useInvitationInfo(queryParams.get('code'));
     return(
         <div className="w-full h-full flex items-center justify-center"> 
             <ReactHowler src="/assets/songs/background-music.mp3" loop={true} playing={isPlaying} html5={true} volume={0.5}></ReactHowler>

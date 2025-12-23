@@ -46,7 +46,7 @@ function App() {
     <div className='max-w-125 w-full h-screen mx-auto text-center'>
       <BrowserRouter>
           <Routes>
-              <Route path="/:code" element={<Home />} />
+              <Route path="/" element={<Home />} />
           </Routes>
       </BrowserRouter>
     </div>
