@@ -2,6 +2,7 @@
 import { useEffect, useLayoutEffect } from 'react';
 import './App.css'
 import Home from './pages/home'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   useLayoutEffect(() => {
@@ -43,7 +44,11 @@ function App() {
   }, []); // Empty array means this runs once on mount
   return (
     <div className='max-w-125 w-full h-screen mx-auto text-center'>
-      <Home/>
+      <BrowserRouter>
+          <Routes>
+              <Route path="/:code" element={<Home />} />
+          </Routes>
+      </BrowserRouter>
     </div>
   )
 }
