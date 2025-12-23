@@ -28,7 +28,7 @@ export default function RsvpSection() {
     return (
         <div className="bg-surface-cream w-full flex flex-col justify-center items-center pt-20 px-4 -z-1 text-brand-dark text-[15px]">
             <img src="/assets/decorations/curl-line.svg" alt="Curl Decoration" className=" md:object-none z-0"/>
-            <h2 data-animate className='text-[24px] font-semibold mt-10 opacity-0 transition-all duration-800'>Share Your Blessing</h2>
+            <h2 data-animate className='text-[24px] font-semibold mt-10 opacity-0 transition-all duration-800'>RSVP & Blessing</h2>
             <p className='mb-5 mt-2'>We would like to share this special moment with you. Please confirm your attendance below and share your blessings with us.</p>
 
             <form onSubmit={handleSubmit} className="w-2/3 flex flex-col gap-5">
