@@ -12,6 +12,7 @@ import Footers from "./sections/footer";
 import { useInvitationInfo } from "../../hooks/useInvitationInfo";
 import { useParams } from "react-router-dom";
 import PlayButton from "../../components/playButton";
+import Loading from "../../components/loading";
 
 function Home(){
     const params = useParams();
@@ -23,7 +24,7 @@ function Home(){
     return(
         <div className="w-full h-full flex items-center justify-center"> 
             <ReactHowler src="/assets/songs/background-music.mp3" loop={true} playing={isPlaying} html5={true} volume={0.5}></ReactHowler>
-            <Cover isOpen={isOpen} setIsOpen={setIsOpen} isPlaying={isPlaying} setIsPlaying={setIsPlaying} data={data}></Cover>
+            {loading ? (<Loading /> ): (<Cover isOpen={isOpen} setIsOpen={setIsOpen} isPlaying={isPlaying} setIsPlaying={setIsPlaying} data={data}></Cover>)}
             <main className={`bg-surface-cream w-full h-full ${isOpen ? 'block' : 'hidden'}`}>
                 <PlayButton isPlaying={isPlaying} setIsPlaying={setIsPlaying}></PlayButton>
                 <Welcome></Welcome>
