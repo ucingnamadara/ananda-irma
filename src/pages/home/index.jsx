@@ -13,6 +13,7 @@ import { useInvitationInfo } from "../../hooks/useInvitationInfo";
 import { useLocation } from "react-router-dom";
 import PlayButton from "../../components/playButton";
 import Loading from "../../components/loading";
+import RsvpSection from "./sections/rsvp";
 
 function Home(){
     const location = useLocation();
@@ -33,6 +34,7 @@ function Home(){
                 <Details></Details>
                 <DateInformation></DateInformation>
                 <PlaceInformation></PlaceInformation>
+                <RsvpSection></RsvpSection>
                 <WeddingGift></WeddingGift>
                 <Footers></Footers>
             </main>
