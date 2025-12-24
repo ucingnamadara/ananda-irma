@@ -30,6 +30,7 @@ export const useInvitationInfo = (code) => {
                 }
 
                 const result = response.data;
+                localStorage.setItem('guestId', result.id);
                 setData(result);
                 setError(null);
                 console.log("API RESULT: %O", data);
@@ -44,7 +45,7 @@ export const useInvitationInfo = (code) => {
         };
 
         fetchInvitationInfo();
-    }, [code]);
+    }, []);
 
     return { data, loading, error };
 };

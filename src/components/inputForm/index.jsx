@@ -1,25 +1,13 @@
 import React, { useState } from 'react';
+import { submitRsvp } from '../../api/rsvpService';
 
-export default function InputForm() {
-    const [formData, setFormData] = useState({
-        name: '',
-        isAttending: '',
-        totalGuest: '',
-        message: ''
-    });
-
+export default function InputForm({formData, setFormData}) {
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData(prev => ({
             ...prev,
             [name]: value
         }));
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Form submitted:', formData);
-        setFormData({ name: '', email: '', message: '' });
     };
 
     return (
@@ -42,8 +30,8 @@ export default function InputForm() {
                     className='bg-amber-50 border-gray-50 border-solid rounded-md w-full'
                     type="dropdown"
                     id="attendance"
-                    name="isAttending"
-                    value={formData.isAttending}
+                    name="isPresence"
+                    value={formData.isPresence}
                     onChange={handleChange}
                     required
                 >
@@ -57,8 +45,8 @@ export default function InputForm() {
                     className='bg-amber-50 border-gray-50 border-solid rounded-md w-full'
                     type="dropdown"
                     id="total-guest"
-                    name="totalGuest"
-                    value={formData.totalGuest}
+                    name="total"
+                    value={formData.total}
                     onChange={handleChange}
                     required
                 >
@@ -80,8 +68,8 @@ export default function InputForm() {
                 <textarea
                     className='bg-amber-50 border-gray-50 border-solid rounded-md w-full h-20'
                     id="message"
-                    name="message"
-                    value={formData.message}
+                    name="comment"
+                    value={formData.comment}
                     onChange={handleChange}
                     
                     required

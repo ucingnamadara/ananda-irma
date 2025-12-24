@@ -1,24 +1,27 @@
 import { useState, useEffect } from 'react';
 import API from '../api/apiClient';
+import { getAllRsvps } from '../api/rsvpService';
 
-export const useRvspList = (userId) => {
-    const [rvspList, setRvspList] = useState([]);
+export const useRvspList = ({page, limit, rsvpList, setRsvpList, setTotalPages, setCurrentPage}) => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
     useEffect(() => {
         const fetchRvspList = async () => {
             try {
+                if(rsvpList.length > 0){
+                    return;
+                }
                 setLoading(true);
-                const response = await API.get(`/rsvp`);
-                console.log("API Response: %O", response);
+                const response = await getAllRsvps({page, limit});
                 if (response.status != 200) {
-                    setError('Failed to fetch invitation info');
+                    setError('Failed to fetch rsvp list');
                     setData(null);
                     return;
                 }
-                const data = await response.json();
-                setRvspList(data);
+                setTotalPages(response.data.totalPages);
+                const data = await response.data;
+                setRsvpList(data.rsvps);
             } catch (err) {
                 setError(err.message);
             } finally {
@@ -26,10 +29,8 @@ export const useRvspList = (userId) => {
             }
         };
 
-        if (userId) {
-            fetchRvspList();
-        }
-    }, [userId]);
+        fetchRvspList();
+    }, []);
 
-    return { rvspList, loading, error };
+    return { loading, error };
 };
