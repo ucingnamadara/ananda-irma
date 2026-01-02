@@ -53,15 +53,15 @@ export default function RsvpSection() {
     return (
         <div className="bg-surface-cream w-full flex flex-col justify-center items-center pt-20 px-4 -z-1 text-brand-dark text-[15px]">
             <img src="/assets/decorations/curl-line.svg" alt="Curl Decoration" className=" md:object-none z-0"/>
-            <h2 data-animate className='text-[24px] font-semibold mt-10 opacity-0 transition-all duration-800'>RSVP & Blessing</h2>
-            <p data-animate className='mb-5 mt-2 opacity-0 transition-all duration-800'>We would like to share this special moment with you. Please confirm your attendance below and share your blessings with us.</p>
+            <h2 data-aos="fade-up" className='text-[24px] font-semibold mt-10 '>RSVP & Blessing</h2>
+            <p data-aos="fade-up" className='mb-5 mt-2 '>We would like to share this special moment with you. Please confirm your attendance below and share your blessings with us.</p>
 
-            <form data-animate className="w-3/4 flex flex-col gap-5 opacity-0 transition-all duration-800">
+            <form data-aos="fade-up" className="w-3/4 flex flex-col gap-5 ">
                 <InputForm formData={formData} setFormData={setFormData}></InputForm>
                 <Button className ="text-surface-cream bg-brand-dark" label={"Submit RSVP"} onClick={handleFormSubmit}></Button>
             </form>
 
-            <div data-animate className="mt-15 flex flex-col gap-6 w-3/4 opacity-0 transition-all duration-800">
+            <div data-aos="fade-up" className="mt-15 flex flex-col gap-6 w-3/4 ">
             {
                 rsvpList?.map((rvsp) => {
                     return (

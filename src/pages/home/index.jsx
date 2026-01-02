@@ -14,6 +14,8 @@ import { useLocation } from "react-router-dom";
 import PlayButton from "../../components/playButton";
 import Loading from "../../components/loading";
 import RsvpSection from "./sections/rsvp";
+import AOSProvider from "../../components/aos/aosProvider";
+import { findByCode } from "../../data/invitationData";
 
 function Home(){
     const location = useLocation();
@@ -21,24 +23,27 @@ function Home(){
     const [isOpen, setIsOpen] = useState(false);
     const [isPlaying, setIsPlaying] = useState(false);
 
-    const { data, loading, error } = useInvitationInfo(queryParams.get('code'));
+    const data = findByCode(queryParams.get('code'));
     return(
-        <div className="w-full h-full flex items-center justify-center"> 
-            <ReactHowler src="/assets/songs/background-music.mp3" loop={true} playing={isPlaying} html5={true} volume={0.5}></ReactHowler>
-            {loading ? (<Loading /> ): (<Cover isOpen={isOpen} setIsOpen={setIsOpen} isPlaying={isPlaying} setIsPlaying={setIsPlaying} data={data}></Cover>)}
-            <main className={`bg-surface-cream w-full h-full ${isOpen ? 'block' : 'hidden'}`}>
-                <PlayButton isPlaying={isPlaying} setIsPlaying={setIsPlaying}></PlayButton>
-                <Welcome></Welcome>
-                <Announce data={data}></Announce>
-                <Quran></Quran>
-                <Details></Details>
-                <DateInformation></DateInformation>
-                <PlaceInformation></PlaceInformation>
-                <RsvpSection></RsvpSection>
-                <WeddingGift></WeddingGift>
-                <Footers></Footers>
-            </main>
-        </div>
+        <AOSProvider>
+            <div className="w-full h-full flex items-center justify-center"> 
+                <ReactHowler src="/assets/songs/background-music.mp3" loop={true} playing={isPlaying} html5={true} volume={0.5}></ReactHowler>
+                <Cover isOpen={isOpen} setIsOpen={setIsOpen} isPlaying={isPlaying} setIsPlaying={setIsPlaying} data={data}></Cover>
+                <main className={`bg-surface-cream w-full h-full`}>
+                    <PlayButton isPlaying={isPlaying} setIsPlaying={setIsPlaying}></PlayButton>
+                    <Welcome></Welcome>
+                    <Announce data={data}></Announce>
+                    <Quran></Quran>
+                    <Details></Details>
+                    <DateInformation></DateInformation>
+                    <PlaceInformation></PlaceInformation>
+                    {/* <RsvpSection></RsvpSection> */}
+                    <WeddingGift></WeddingGift>
+                    <Footers></Footers>
+                </main>
+            </div>
+        </AOSProvider>
+        
     )
     
     }
