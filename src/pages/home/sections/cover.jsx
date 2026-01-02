@@ -4,23 +4,22 @@ import { useEffect, useState } from "react";
 
 function Cover({isOpen, setIsOpen, isPlaying, setIsPlaying, data}){
 
-    const [rotation, setRotation] = useState(0);
     // 2. Function to toggle the state
     const handleToggle = () => {
         setIsPlaying(!isPlaying);
         setIsOpen(true);
     };
 
+    const [rotation, setRotation] = useState(0);
+    useEffect(() => {
+        // Update rotation every 1 second
+        const interval = setInterval(() => {
+        setRotation((prev) => (prev + 45) % 360); // Rotate by 45° each time
+        }, 1000);
 
-  useEffect(() => {
-    // Update rotation every 1 second
-    const interval = setInterval(() => {
-      setRotation((prev) => (prev + 45) % 360); // Rotate by 45° each time
-    }, 1000);
-
-    // Cleanup on unmount
-    return () => clearInterval(interval);
-  }, []);
+        // Cleanup on unmount
+        return () => clearInterval(interval);
+    }, []);
   
     return(
     <div className="animate-fade-slide-up transition-all duration-800">
@@ -41,9 +40,7 @@ function Cover({isOpen, setIsOpen, isPlaying, setIsPlaying, data}){
             <div className="flex flex-col justify-center items-center">
                 <img src="/assets/images/wedding-logo-cream.svg" alt="Irma & Ananda" className=" w-70 mx-auto mb-4"/>
                 <p className= "text-[20px] font-medium">Dear.</p>
-                {data?.fullName != null ? 
-                    (<p className= "text-[25px] font-semibold">{data?.fullName}</p>) : 
-                    (<div className= "animate-pulse bg-surface-cream w-3/5 h-10"></div>)}
+                <p className= "text-[25px] font-semibold">{data?.displayName == null ? "Guest" : data?.displayName}</p>
                 <p className="text-[20px] font-medium">You are Invited!</p>
             </div>
             <div className="mt-10">
