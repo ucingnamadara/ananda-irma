@@ -15,12 +15,12 @@ function Details(){
         <div className="bg-surface-cream w-full h-fit max-h-237.5 flex flex-col justify-center items-center py-20 px-4 -z-1 text-brand-dark text-[15px]">
             <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="/assets/decorations/frame-decoration-1.svg" alt="Line Decoration" className="absolute max-h-237.5  md:object-none z-0 "/>
             <div data-aos="fade-up" className="absolute">
-                <div className="flex flex-row relative bottom-70">
+                <div className="flex flex-row relative bottom-60 md:bottom-70 w-1/2 md:w-2/2">
                     <img src="/assets/decorations/flower-green.svg" className="rotate-20" style={{ transform: `rotate(${rotation}deg)` }}></img>
                 </div>
             </div>
             <div data-aos="fade-up" className="absolute">
-                <div className="flex flex-row relative top-70">
+                <div className="flex flex-row relative top-60 md:top-70 w-1/2 md:w-2/2">
                     <img src="/assets/decorations/flower-green.svg" className="rotate-20" style={{ transform: `rotate(${rotation}deg)` }}></img>
                 </div>
             </div>

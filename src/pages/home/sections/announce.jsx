@@ -5,12 +5,12 @@ function Announce({data}){
     <div className="bg-surface-cream w-full h-[85svh] max-h-237.5 flex flex-col justify-center items-center py-20 px-4 -z-1 text-brand-dark">
         <img data-aos="fade-in" data-aos-anchor-placement="center-bottom" src="/assets/decorations/frame-decoration.svg" alt="Frame Decoration" className="absolute h-[85svh] max-h-237.5 md:object-none z-0 w-23/24 md:w-full "/>
         <div data-aos="fade-in" data-aos-anchor-placement="center-bottom" className="absolute">
-            <div className="flex flex-row relative bottom-60 left-35">
+            <div className="flex flex-row relative bottom-45 md:bottom-60 left-25 md:left-35 leng">
                 <img src="/assets/icons/smile.svg" className="rotate-20"></img>
             </div>
         </div>
         <div data-aos="fade-in" data-aos-anchor-placement="center-bottom" className="absolute">
-            <div className="flex flex-row relative top-60 right-35">
+            <div className="flex flex-row relative top-45 md:top-60 right-25 md:right-35">
                 <img src="/assets/icons/love.svg" className="rotate-20"></img>
             </div>
         </div>
