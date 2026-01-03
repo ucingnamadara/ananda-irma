@@ -21,7 +21,7 @@ function Announce({data}){
             </div>
             <p data-aos="fade-up" className="font-medium ">We’re overjoyed to invite you to our wedding!</p>
             <p data-aos="fade-up" className="font-semibold ">As we're planning an intimate celebration, it will be shared only with those closest to our hearts.</p>
-            <p data-aos="fade-up" className={`font-bold  ${data?.amount == null ? 'hidden' : ''}` }>This invitation is for {formatGuestCount(data?.totalInvitation)} only. We kindly request that no additional guests be brought.</p>
+            <p data-aos="fade-up" className={`font-bold  ${data?.amount == null ? 'hidden' : ''}` }>This invitation is for {formatGuestCount(data?.amount)} only. We kindly request that no additional guests be brought.</p>
             <p data-aos="fade-up" className="font-medium ">Thank you for understanding, and for being such a special part of our story.</p>
             <p data-aos="fade-up" className="font-medium ">We can’t wait to celebrate this beautiful moment with you!</p>
         </div>
