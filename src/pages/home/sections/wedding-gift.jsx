@@ -17,7 +17,7 @@ function WeddingGift(){
                 <img src="/assets/decorations/bank-account-frame.svg" className="absolute max-w-[397px] w-23/24"></img>
                 <img src="/assets/images/bca-logo.svg" alt="Gift Box"></img>
                 <div className="text-left flex flex-col gap-0.5">
-                    <h1 className="text-[20px]">1231312312</h1>
+                    <h1 className="text-[20px]">2832731341</h1>
                     <p>Irmayanti Nur Sabillah</p>
                 </div>
             </div>
