@@ -7,11 +7,9 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-  }, [])
+  window.addEventListener('load', () => { AOS.init(
+    {duration: 1000},
+  ); });
   AOS.refresh();
   AOS.refreshHard();
   return (
