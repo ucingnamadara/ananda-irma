@@ -38,7 +38,7 @@ function Cover({isOpen, setIsOpen, isPlaying, setIsPlaying, data}){
                 </div>
             </div>
             <div className="flex flex-col justify-center items-center">
-                <img src="/assets/images/wedding-logo-cream.svg" alt="Irma & Ananda" className=" w-70 mx-auto mb-4"/>
+                <img src="/assets/images/wedding-logo-cream.svg" alt="Irma & Ananda" className=" w-70 mx-auto mb-10"/>
                 <p className= "text-[20px] font-medium">Dear.</p>
                 <p className= "text-[25px] font-semibold">{data?.displayName == null ? "Guest" : data?.displayName}</p>
                 <p className="text-[20px] font-medium">You are Invited!</p>
