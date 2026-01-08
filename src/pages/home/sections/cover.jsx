@@ -43,7 +43,7 @@ function Cover({isOpen, setIsOpen, isPlaying, setIsPlaying, data}){
                 <p className= "text-[25px] font-semibold">{data?.displayName == null ? "Guest" : data?.displayName}</p>
                 <p className="text-[20px] font-medium">You are Invited!</p>
             </div>
-            <div className="mt-10">
+            <div className="mt-10 z-99999">
                 <Button className = "bg-surface-cream text-brand-dark" label="Open Invitation" onClick={handleToggle}/>
             </div>
             

@@ -12,8 +12,6 @@ function App() {
       duration: 1000,
     });
   }, [])
-  AOS.refresh();
-  AOS.refreshHard();
   return (
     <div className='max-w-125 w-full h-screen mx-auto text-center'>
       <BrowserRouter>
