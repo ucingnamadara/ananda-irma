@@ -6,287 +6,111 @@ export const findByCode = (code) => {
 }
 
 export const invitationData = [
-  {
-    "code": "V162H",
-    "displayName": "Kinan Rudiana",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "R088M",
-    "displayName": "Zahra",
-    "amount": 2,
-    "isVip": false
-  },
-  {
-    "code": "XWQ3T",
-    "displayName": "Adissa",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "D6HTP",
-    "displayName": "Arief Suditomo",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "3W1I2",
-    "displayName": "Selina",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "LDXKF",
-    "displayName": "Ari Raja",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "OOI77",
-    "displayName": "Labib",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "OC2DF",
-    "displayName": "Pramestya",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "14RJ3",
-    "displayName": "Rifky",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "94GO4",
-    "displayName": "Zainab",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "UQ4E7",
-    "displayName": "Trisna Guruminda",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "FGYCQ",
-    "displayName": "Sayoga",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "97139",
-    "displayName": "Bpk. Bayu",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "NL96X",
-    "displayName": "Bpk. Andi",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "P1S19",
-    "displayName": "Ibu Budi",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "Y72NW",
-    "displayName": "Faza",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "SN529",
-    "displayName": "Jericho",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "9K654",
-    "displayName": "M. Fikri",
-    "amount": 2,
-    "isVip": false
-  },
-  {
-    "code": "46392",
-    "displayName": "Allegra",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "1ARD7",
-    "displayName": "Aziz Tio",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "T375G",
-    "displayName": "Asep Maulana",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "NX494",
-    "displayName": "Dhila",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "ZE2SV",
-    "displayName": "Fany",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "MCNB3",
-    "displayName": "Ninis",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "R2204",
-    "displayName": "Madha Jani",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "99OD9",
-    "displayName": "Nur Aulia",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "E9561",
-    "displayName": "Fathir",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "GT761",
-    "displayName": "Sophia",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "E5C84",
-    "displayName": "Yunan",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "1TYP4",
-    "displayName": "Weldy",
-    "amount": 2,
-    "isVip": false
-  },
-  {
-    "code": "K1L1O",
-    "displayName": "Yuliana",
-    "amount": 2,
-    "isVip": false
-  },
-  {
-    "code": "GV914",
-    "displayName": "Mardian Utama",
-    "amount": 2,
-    "isVip": false
-  },
-  {
-    "code": "TD0IZ",
-    "displayName": "Arfi",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "6WKNV",
-    "displayName": "Yoga",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "M6919",
-    "displayName": "Gemutro",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "2QIX7",
-    "displayName": "Eka",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "S5Z0R",
-    "displayName": "Nisa",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "7KL2L",
-    "displayName": "Tiara",
-    "amount": 2,
-    "isVip": false
-  },
-  {
-    "code": "7KT37",
-    "displayName": "Diana",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "7GYRS",
-    "displayName": "Mayer",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "D81ME",
-    "displayName": "Adriel",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "Q8EAB",
-    "displayName": "Marchellia",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "1LH2B",
-    "displayName": "Rishad",
-    "amount": 2,
-    "isVip": false
-  },
-  {
-    "code": "L81Z0",
-    "displayName": "Prasetyo",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "52B44",
-    "displayName": "Bpk. Megiyanto",
-    "amount": 2,
-    "isVip": false
-  },
-  {
-    "code": "92778",
-    "displayName": "Rizki Wijanarko",
-    "amount": 1,
-    "isVip": false
-  },
-  {
-    "code": "EW519",
-    "displayName": "Sulistiono",
-    "amount": 1,
-    "isVip": false
-  }
+  { "code": "V162H", "displayName": "Kinan", "amount": 1, "isVip": false },
+  { "code": "R088M", "displayName": "Zahra", "amount": 2, "isVip": false },
+  { "code": "XWQ3T", "displayName": "Adissa", "amount": 1, "isVip": false },
+  { "code": "D6HTP", "displayName": "Arief Suditomo", "amount": 1, "isVip": false },
+  { "code": "3W1I2", "displayName": "Selina", "amount": 1, "isVip": false },
+  { "code": "LDXKF", "displayName": "Ari Raja", "amount": 1, "isVip": false },
+  { "code": "OOI77", "displayName": "Labib", "amount": 1, "isVip": false },
+  { "code": "OC2DF", "displayName": "Pramestya", "amount": 1, "isVip": false },
+  { "code": "OC2DG", "displayName": "Arie M. Prasetyo", "amount": 1, "isVip": false },
+  { "code": "14RJ3", "displayName": "Rifky", "amount": 1, "isVip": false },
+  { "code": "94GO4", "displayName": "Zainab", "amount": 1, "isVip": false },
+  { "code": "UQ4E7", "displayName": "Trisna Guruminda", "amount": 1, "isVip": false },
+  { "code": "FGYCQ", "displayName": "Sayoga", "amount": 1, "isVip": false },
+  { "code": "97139", "displayName": "Bpk. Bayu", "amount": 1, "isVip": false },
+  { "code": "NL96X", "displayName": "Bpk. Andi", "amount": 1, "isVip": false },
+  { "code": "P1S19", "displayName": "Ibu Budi", "amount": 1, "isVip": false },
+  { "code": "Y72NW", "displayName": "Faza", "amount": 1, "isVip": false },
+  { "code": "SN529", "displayName": "Jericho", "amount": 1, "isVip": false },
+  { "code": "9K654", "displayName": "M. Fikri", "amount": 2, "isVip": false },
+  { "code": "46392", "displayName": "Allegra", "amount": 1, "isVip": false },
+  { "code": "1ARD7", "displayName": "Aziz Tio", "amount": 1, "isVip": false },
+  { "code": "T375G", "displayName": "Asep Maulana", "amount": 1, "isVip": false },
+  { "code": "NX494", "displayName": "Dhilla", "amount": 1, "isVip": false },
+  { "code": "ZE2SV", "displayName": "Fany", "amount": 1, "isVip": false },
+  { "code": "MCNB3", "displayName": "Ninis", "amount": 1, "isVip": false },
+  { "code": "R2204", "displayName": "Madha Jani", "amount": 1, "isVip": false },
+  { "code": "99OD9", "displayName": "Nur Aulia", "amount": 1, "isVip": false },
+  { "code": "E9561", "displayName": "Fathir", "amount": 1, "isVip": false },
+  { "code": "GT761", "displayName": "Sophia", "amount": 1, "isVip": false },
+  { "code": "E5C84", "displayName": "Yunan", "amount": 1, "isVip": false },
+  { "code": "1TYP4", "displayName": "Weldy", "amount": 2, "isVip": false },
+  { "code": "K1L1O", "displayName": "Yuliana", "amount": 2, "isVip": false },
+  { "code": "GV914", "displayName": "Mardian Utama", "amount": 2, "isVip": false },
+  { "code": "TD0IZ", "displayName": "Arfi", "amount": 1, "isVip": false },
+  { "code": "6WKNV", "displayName": "Yoga", "amount": 1, "isVip": false },
+  { "code": "M6919", "displayName": "Gemutro", "amount": 1, "isVip": false },
+  { "code": "2QIX7", "displayName": "Eka", "amount": 1, "isVip": false },
+  { "code": "S5Z0R", "displayName": "Nisa", "amount": 1, "isVip": false },
+  { "code": "7KL2L", "displayName": "Tiara", "amount": 2, "isVip": false },
+  { "code": "7KT37", "displayName": "Diana", "amount": 1, "isVip": false },
+  { "code": "7GYRS", "displayName": "Mayer", "amount": 1, "isVip": false },
+  { "code": "D81ME", "displayName": "Adriel", "amount": 1, "isVip": false },
+  { "code": "Q8EAB", "displayName": "Marchellia", "amount": 1, "isVip": false },
+  { "code": "S43QO", "displayName": "Anantio", "amount": 1, "isVip": false },
+  { "code": "T01MG", "displayName": "Rizky", "amount": 1, "isVip": false },
+  { "code": "1LH2B", "displayName": "Rishad", "amount": 1, "isVip": false },
+  { "code": "L81Z0", "displayName": "Prasetyo", "amount": 1, "isVip": false },
+  { "code": "52B44", "displayName": "Bpk. Megiyanto", "amount": 2, "isVip": false },
+  { "code": "92778", "displayName": "Rizki Wijanarko", "amount": 1, "isVip": false },
+  { "code": "EW519", "displayName": "Sulistiono", "amount": 1, "isVip": false },
+  { "code": "9NDWW", "displayName": "Angga", "amount": 2, "isVip": false },
+  { "code": "56753", "displayName": "Gibran", "amount": 1, "isVip": false },
+  { "code": "3E326", "displayName": "Afina", "amount": 1, "isVip": false },
+  { "code": "YFWB5", "displayName": "Anisa Pirana", "amount": 2, "isVip": false },
+  { "code": "GNGJ1", "displayName": "Wildan", "amount": 1, "isVip": false },
+  { "code": "Z0Q74", "displayName": "Verino", "amount": 1, "isVip": false },
+  { "code": "Y6H13", "displayName": "Wa Iwan", "amount": 2, "isVip": false },
+  { "code": "HTAIS", "displayName": "Wa Ujang", "amount": 4, "isVip": false },
+  { "code": "S0MW0", "displayName": "Teh Biya", "amount": 3, "isVip": false },
+  { "code": "3E9NX", "displayName": "Adisti", "amount": 1, "isVip": false },
+  { "code": "34SP0", "displayName": "Teh Una", "amount": 1, "isVip": false },
+  { "code": "PE438", "displayName": "Teh Ine", "amount": 1, "isVip": false },
+  { "code": "QI2L1", "displayName": "Teh Amel", "amount": 2, "isVip": false },
+  { "code": "26166", "displayName": "Arsyah & Salma", "amount": 2, "isVip": false },
+  { "code": "IAS32", "displayName": "Ita & Suami", "amount": 2, "isVip": false },
+  { "code": "98A81", "displayName": "Puspa & Suami", "amount": 2, "isVip": false },
+  { "code": "K7F5Y", "displayName": "Azura & Babang", "amount": 2, "isVip": false },
+  { "code": "SBAFW", "displayName": "Rahmayanti", "amount": 1, "isVip": false },
+  { "code": "8XZ69", "displayName": "Rafa", "amount": 1, "isVip": false },
+  { "code": "STEZ7", "displayName": "Setigma & Suami", "amount": 2, "isVip": false },
+  { "code": "ZI8UW", "displayName": "Teh Brisa", "amount": 2, "isVip": false },
+  { "code": "X5GRM", "displayName": "Bening", "amount": 1, "isVip": false },
+  { "code": "Q2Q11", "displayName": "Ranti & Suami", "amount": 2, "isVip": false },
+  { "code": "6U09U", "displayName": "Muthia", "amount": 1, "isVip": false },
+  { "code": "H61J0", "displayName": "Elsa", "amount": 1, "isVip": false },
+  { "code": "XWBA0", "displayName": "Desti", "amount": 2, "isVip": false },
+  { "code": "9I723", "displayName": "Wida & Ahmad", "amount": 2, "isVip": false },
+  { "code": "EQ218", "displayName": "Windi Lestari", "amount": 2, "isVip": false },
+  { "code": "Z2KPF", "displayName": "Dina & Frima", "amount": 2, "isVip": false },
+  { "code": "C5ZC3", "displayName": "Yogi", "amount": 2, "isVip": false },
+  { "code": "8T1BI", "displayName": "Faizal", "amount": 2, "isVip": false },
+  { "code": "V0DDR", "displayName": "Zulfan", "amount": 2, "isVip": false },
+  { "code": "10YKE", "displayName": "Ryanna", "amount": 2, "isVip": false },
+  { "code": "FUAF3", "displayName": "Gita Lestari", "amount": 1, "isVip": false },
+  { "code": "1RE0M", "displayName": "Senny", "amount": 2, "isVip": false },
+  { "code": "3Z9UY", "displayName": "Saskia (Sasa)", "amount": 2, "isVip": false },
+  { "code": "074CM", "displayName": "Fadiya", "amount": 1, "isVip": false },
+  { "code": "R3IJ5", "displayName": "Assa", "amount": 2, "isVip": false },
+  { "code": "M53MI", "displayName": "Pak Tjandra", "amount": 1, "isVip": false },
+  { "code": "6937H", "displayName": "Eng Gaia", "amount": 15, "isVip": false },
+  { "code": "C5W54", "displayName": "Siva", "amount": 2, "isVip": false },
+  { "code": "90155", "displayName": "Fadilah (Dileh)", "amount": 2, "isVip": false },
+  { "code": "I5ZEE", "displayName": "Arvi", "amount": 1, "isVip": false },
+  { "code": "OOL0I", "displayName": "18B Superclass", "amount": null, "isVip": false },
+  { "code": "47130", "displayName": "Fachriel", "amount": 1, "isVip": false },
+  { "code": "E0UAR", "displayName": "Salwa T L", "amount": 1, "isVip": false },
+  { "code": "755GX", "displayName": "Ibu Verino", "amount": 2, "isVip": false },
+  { "code": "I9Z6N", "displayName": "Salwa Laura", "amount": 1, "isVip": false },
+  { "code": "A7T16", "displayName": "Niken", "amount": 1, "isVip": false },
+  { "code": "8U95F", "displayName": "Afini", "amount": 1, "isVip": false },
+  { "code": "34B78", "displayName": "Teh Rosi", "amount": 1, "isVip": false },
+  { "code": "CKE1S", "displayName": "Tresnanda", "amount": null, "isVip": false },
+  { "code": "0R8Q6", "displayName": "Fira & Suami", "amount": null, "isVip": false },
+  { "code": "NRX91", "displayName": "Sofi", "amount": null, "isVip": false },
+  { "code": "80S57", "displayName": "Teh Bone", "amount": 2, "isVip": false },
+  { "code": "2Z4C1", "displayName": "Falah", "amount": 1, "isVip": false },
+  { "code": "U7G2E", "displayName": "Fatharani Regina", "amount": 2, "isVip": false }
 ]
-
