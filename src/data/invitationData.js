@@ -105,7 +105,7 @@ export const invitationData = [
   { "code": "I9Z6N", "displayName": "Salwa Laura", "amount": 2, "isVip": false },
   { "code": "A7T16", "displayName": "Niken", "amount": 2, "isVip": false },
   { "code": "8U95F", "displayName": "Afini", "amount": 2, "isVip": false },
-  { "code": "34B78", "displayName": "Teh Rosi", "amount": 2, "isVip": false },
+  { "code": "34B78", "displayName": "Teh Rosi & Rika", "amount": 2, "isVip": false },
   { "code": "CKE1S", "displayName": "Tresnanda", "amount": null, "isVip": false },
   { "code": "0R8Q6", "displayName": "Fira & Suami", "amount": null, "isVip": false },
   { "code": "NRX91", "displayName": "Sofi", "amount": null, "isVip": false },
@@ -164,5 +164,9 @@ export const invitationData = [
   { "code": "H922K", "displayName": "Kel Dr Dadang", "amount": 2, "isVip": false },
   { "code": "4X3JR", "displayName": "Bpk Deni", "amount": 2, "isVip": false },
   { "code": "BW6T2", "displayName": "Bpk Andi", "amount": 2, "isVip": false },
-  { "code": "PTM8K", "displayName": "Bpk Bayu", "amount": 2, "isVip": false }
+  { "code": "PTM8K", "displayName": "Bpk Bayu", "amount": 2, "isVip": false },
+  { "code": "53RKY", "displayName": "Hilmi", "amount": 2, "isVip": false },
+  { "code": "S80OI", "displayName": "Danies", "amount": null, "isVip": false },
+  { "code": "M2LJQ", "displayName": "Yuni Wulandari", "amount": 1, "isVip": false },
+  { "code": "51HZZ", "displayName": "Amira Taliya", "amount": 2, "isVip": false }
 ]
