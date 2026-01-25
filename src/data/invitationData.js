@@ -145,7 +145,7 @@ export const invitationData = [
   { "code": "JO408", "displayName": "Om Kris & Bi Yesi", "amount": 4, "isVip": false },
   { "code": "CN6Y6", "displayName": "Nek Dian", "amount": 7, "isVip": false },
   { "code": "7LUQO", "displayName": "Ibu Yati Sugiarti", "amount": 5, "isVip": false },
-  { "code": "6YF0H", "displayName": "Ibu Mia", "amount": 4, "isVip": false },
+  { "code": "6YF0H", "displayName": "Ibu Mia (Bilal)", "amount": 4, "isVip": false },
   { "code": "7FLH1", "displayName": "Bpk. Deni Iskandar", "amount": 2, "isVip": false },
   { "code": "73P0V", "displayName": "Bpk. Djaja Ishwara", "amount": 2, "isVip": false },
   { "code": "09ABA", "displayName": "Kel. Bpk. Moh. Slamet", "amount": 2, "isVip": false },
