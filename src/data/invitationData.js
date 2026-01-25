@@ -154,7 +154,7 @@ export const invitationData = [
   { "code": "J94YQ", "displayName": "Bpk. Wisnu", "amount": 2, "isVip": false },
   { "code": "N5568", "displayName": "Bpk. Ferdi", "amount": 2, "isVip": false },
   { "code": "5VOML", "displayName": "Bpk. Wiun", "amount": 2, "isVip": false },
-  { "code": "76Q64", "displayName": "Bpk. Dr Bryan Denov", "amount": 2, "isVip": false },
+  { "code": "76Q64", "displayName": "Bpk. Dr. Bryan Denov", "amount": 2, "isVip": false },
   { "code": "49GYX", "displayName": "Ibu Rara", "amount": 2, "isVip": false },
   { "code": "PGVLF", "displayName": "Bpk. Ajun & Istri", "amount": 1, "isVip": false },
   { "code": "C18VC", "displayName": "Bpk. Aep & Istri", "amount": 1, "isVip": false },
