@@ -178,5 +178,11 @@ export const invitationData = [
   { "code": "35053", "displayName": "Bpk. dr. Budi S Gunawan", "amount": 2, "isVip": false },
   { "code": "KFV4O", "displayName": "Ibu Lia (Eyang Tomo)", "amount": 2, "isVip": false },
   { "code": "CL060", "displayName": "Om Rama & Tante Acied", "amount": null, "isVip": false },
-  { "code": "BB6UT", "displayName": "Bpk. Gugum Gumbira", "amount": null, "isVip": false }
+  { "code": "BB6UT", "displayName": "Bpk. Gugum Gumbira", "amount": null, "isVip": false },
+  {"code":"E8M77","displayName":"Bpk Lulu","amount":null,"isVip":false},
+  {"code":"5UF43","displayName":"Bpk Rahmadin","amount":null,"isVip":false},
+  {"code":"URF5Z","displayName":"Bpk Yudi dan Ibu Yani","amount":null,"isVip":false},
+  {"code":"394V7","displayName":"Bpk Benny Yulinardo","amount":null,"isVip":false},
+  {"code":"VQ8YW","displayName":"Bpk Asvil Martin","amount":null,"isVip":false},
+  {"code":"89PP2","displayName":"Bpk John Rika Roza","amount":null,"isVip":false},
 ]
