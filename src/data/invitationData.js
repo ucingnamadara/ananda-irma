@@ -174,7 +174,7 @@ export const invitationData = [
   { "code": "31T9H", "displayName": "Arie M. Prasetyo", "amount": 1, "isVip": false },
   { "code": "CY98N", "displayName": "NK 2017", "amount": 1, "isVip": false },
   { "code": "Y2513", "displayName": "Telkom 2017", "amount": 1, "isVip": false },
-  { "code": "P1889", "displayName": "Bu Titin", "amount": 2, "isVip": false },
+  { "code": "P1889", "displayName": "Ibu Tintin", "amount": 2, "isVip": false },
   { "code": "35053", "displayName": "Bpk. dr. Budi S Gunawan", "amount": 2, "isVip": false },
   { "code": "KFV4O", "displayName": "Ibu Lia (Eyang Tomo)", "amount": 2, "isVip": false },
   { "code": "CL060", "displayName": "Om Rama & Tante Acied", "amount": null, "isVip": false },
