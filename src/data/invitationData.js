@@ -185,4 +185,5 @@ export const invitationData = [
   {"code":"394V7","displayName":"Bpk Benny Yulinardo","amount":null,"isVip":false},
   {"code":"VQ8YW","displayName":"Bpk Asvil Martin","amount":null,"isVip":false},
   {"code":"89PP2","displayName":"Bpk John Rika Roza","amount":null,"isVip":false},
+  {"code":"00C55","displayName":"Bpk. Rhendy Zoro & Istri","amount":null,"isVip":false},
 ]
