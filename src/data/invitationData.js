@@ -101,7 +101,7 @@ export const invitationData = [
   { "code": "OOL0I", "displayName": "18B Superclass", "amount": null, "isVip": false },
   { "code": "47130", "displayName": "Fachriel", "amount": 2, "isVip": false },
   { "code": "E0UAR", "displayName": "Salwa T L", "amount": 2, "isVip": false },
-  { "code": "755GX", "displayName": "Ibu Verino", "amount": 2, "isVip": false },
+  { "code": "755GX", "displayName": "Ibu Verino & Keluarga", "amount": 2, "isVip": false },
   { "code": "I9Z6N", "displayName": "Salwa Laura", "amount": 2, "isVip": false },
   { "code": "A7T16", "displayName": "Niken", "amount": 2, "isVip": false },
   { "code": "8U95F", "displayName": "Afini", "amount": 2, "isVip": false },
