@@ -187,5 +187,23 @@ export const invitationData = [
   {"code":"89PP2","displayName":"Bpk John Rika Roza","amount":null,"isVip":false},
   {"code":"00C55","displayName":"Bpk. Rhendy Zoro & Istri","amount":null,"isVip":false},
   {"code":"5S0UY","displayName":"Kel. Bpk. Hanan Hatta","amount":null,"isVip":false},
-  {"code":"4LUZB","displayName":"Bpk. Rizki","amount":null,"isVip":false}
+  {"code":"4LUZB","displayName":"Bpk. Rizki","amount":null,"isVip":false},
+  {
+    "code": "51RYJ",
+    "displayName": "Ibu Diah - FM",
+    "amount": 2,
+    "isVip": false
+  },
+  {
+    "code": "XH5F3",
+    "displayName": "A Heri",
+    "amount": null,
+    "isVip": false
+  },
+  {
+    "code": "0F573",
+    "displayName": "Indri",
+    "amount": 2,
+    "isVip": false
+  }
 ]
